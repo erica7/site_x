@@ -1,18 +1,90 @@
 body {
   background-color: #333;
-  color: #eee;
+  color: #ccc;
   font-family: "Gill Sans";
   font-weight: 100;
+  /*margin: 0 0px;
+  padding: 0 0px;*/
 }
 
+#portfolio {
+  background-color: #444;
+}
 .parallax {
-  background-image: url("./../img/IMG_1936.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("./../img/IMG_1936_L.jpg");
   background-attachment: fixed;
-  /*background-position: center;*/
-  background-position: 50% 90%;
-  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-size: cover;*/
+  background-size: auto 100%;
+  top: 0;
+  /*background-position: 0% 0%;*/
+  height: 600px;
+}
+
+.row {
+  padding: 0.4em 0;
+}
+
+.padded-row {
+  padding: 2em 12em 2em 12em;
+  /*padding: 2em 18em 2em 18em !important;*/
+}
+
+
+.heading {
+  text-align: right;
+}
+
+h1, h2, h3, h4, h5 {
+  /*color: #d3ea00;*/
+  margin-top: 0.3em;
+  color: #eee;
+}
+
+h5 {
+  margin-top: 0.05em;
+}
+
+/*h1, h2, h3, h4 {
+  color: #eee;
+}*/
+
+a, a:link, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.glamour-shot {
+  /*margin: 0em 0em;*/
+  max-height: 350px;
+}
+
+footer {
+  background-color: #111;
+}
+
+.footer-text {
+  margin: 0.5em 1.5em;
+  color: #888;
+}
+
+.portfolio-thumbnail {
+  filter: grayscale(100%) blur(2px) invert(100%);
+  /*border: none;*/
+}
+
+.portfolio-thumbnail:hover {
+  filter: blur(0px);
+}
+
+.tagline {
+  /*margin-top: 2em;*/
 }
 
 /*#homepage {
@@ -26,7 +98,7 @@ body {
   position: absolute;
   height: 200px;
   width: 200px;
-  top: 400px;
+  top: 250px;
   left: 50%;
   transform: translate(-50%, 0%);
 }
@@ -121,4 +193,27 @@ body {
 .centerText {
   /*top: 50%;*/
   transform: translate( 0, 67% );
+}
+
+
+@media (max-width: 768px) {
+  .heading {
+    text-align: left;
+  }
+
+  .padded-row {
+    padding: 0;
+  }
+
+  .tagline {
+    margin-top: 0em;
+  }
+
+  #left {
+    font-size: 40px;
+    /*font-weight: 100;
+    position: absolute;
+    top: 50%;*/
+    transform: translate(-60%, -56%);
+  }
 }
