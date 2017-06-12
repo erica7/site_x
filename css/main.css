@@ -3,6 +3,7 @@ body {
   color: #ccc;
   font-family: "Gill Sans";
   font-weight: 100;
+  padding-top: 50px;
   /*margin: 0 0px;
   padding: 0 0px;*/
 }
@@ -10,16 +11,18 @@ body {
 #portfolio {
   background-color: #444;
 }
+
 .parallax {
-  background-image: url("./../img/IMG_1936_L.jpg");
+  background-image: url("./../img/IMG_1936_LS.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   /*background-size: cover;*/
+  /*background-size: contain;*/
   background-size: auto 100%;
-  top: 0;
   /*background-position: 0% 0%;*/
   height: 600px;
+  /*height: auto;*/
 }
 
 .row {
@@ -60,6 +63,11 @@ a:hover {
   text-decoration: none;
 }
 
+#nav-about-me, #nav-portfolio, #nav-contact {
+  margin-top: -50px;
+  padding-top: 50px;
+}
+
 .glamour-shot {
   /*margin: 0em 0em;*/
   max-height: 350px;
@@ -76,7 +84,6 @@ footer {
 
 .portfolio-thumbnail {
   filter: grayscale(100%) blur(2px) invert(100%);
-  /*border: none;*/
 }
 
 .portfolio-thumbnail:hover {
@@ -94,11 +101,12 @@ footer {
 }*/
 
 #logo-container {
+  /*display: none;*/
   /*position: fixed;*/
   position: absolute;
   height: 200px;
   width: 200px;
-  top: 250px;
+  top: 220px;
   left: 50%;
   transform: translate(-50%, 0%);
 }
@@ -202,18 +210,36 @@ footer {
   }
 
   .padded-row {
-    padding: 0;
+    padding: 1em 0;
   }
 
   .tagline {
     margin-top: 0em;
   }
 
-  #left {
-    font-size: 40px;
-    /*font-weight: 100;
-    position: absolute;
-    top: 50%;*/
-    transform: translate(-60%, -56%);
+  .glamour-shot {
+    margin-bottom: 2em;
   }
+
+  .portfolio-thumbnail {
+    filter: none;
+    margin: 0.5em 0em 0.5em 0em;
+  }
+
+  .nested-row {
+    margin: 0 1.5em;
+  }
+
+  .parallax {
+    display: none;
+  }
+
+  #logo-container {
+    display: none;
+  }
+
+  /*#left {
+    font-size: 40px;
+    transform: translate(-60%, -56%);
+  }*/
 }
