@@ -13,7 +13,7 @@ body {
 }
 
 .parallax {
-  background-image: url("./../img/IMG_1936_LS.jpg");
+  background-image: url("./../img/IMG_1936_L.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -59,7 +59,7 @@ a, a:link, a:visited, a:active {
 }
 
 a:hover {
-  color: #bbb;
+  color: #08c9ff;
   text-decoration: none;
 }
 
