@@ -68,6 +68,18 @@ a:hover {
   padding-top: 50px;
 }
 
+.small-logo {
+  max-height: 25px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.side-margin {
+  margin: auto 0.5em;
+}
+
 .glamour-shot {
   /*margin: 0em 0em;*/
   max-height: 350px;
@@ -106,7 +118,7 @@ footer {
   position: absolute;
   height: 200px;
   width: 200px;
-  top: 220px;
+  top: 230px;
   left: 50%;
   transform: translate(-50%, 0%);
 }
