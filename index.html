@@ -8,11 +8,10 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/script.js"></script>
 
+    <script type="text/javascript" src="js/script.js"></script>
   </head>
   <body class="container-fluid">
 
@@ -35,28 +34,22 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="https://github.com/erica7" target="_blank" class="navbar-brand"><img src="/img/GitHub-Mark-Light-120px-plus.png" alt="GitHub" class="img-responsive small-logo"></a></li>
-            <li><a href="http://www.linkedin.com/in/ericasnider" target="_blank" class="navbar-brand"><img src="/img/In-White-128px-R.png" alt="LinkedIn" class="img-responsive small-logo"></a></li>
+            <li><a href="https://linkedin.com/in/ericasnider" target="_blank" class="navbar-brand"><img src="/img/In-White-128px-R.png" alt="LinkedIn" class="img-responsive small-logo"></a></li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="row parallax">
+    <div id="parallax" class="row parallax-image">
     </div>
 
-    <div class="row" id="homepage">
+    <div class="row">
       <div id="logo-container">
         <div id="top">&#9789;</div>
-        <!-- <div id="farLeft">
-          <div class="centerText">contact</div>
-        </div> -->
         <div id="left">erica</div>
         <div id="center"></div>
         <div id="center2"></div>
-        <div id="right">&#8608;</div><!--&#10496;---->
-        <!-- <div id="farRight">
-          <div class="centerText">portfolio</div>
-        </div> -->
+        <div id="right">&#8608;</div>
         <div id="bottom">&#9734;</div>
       </div>
     </div>
@@ -65,20 +58,20 @@
     <div id="nav-about-me">
     </div>
 
-    <div class="row padded-row" id="about-me">
+    <div class="row" id="about-me">
 
-      <div class="col-sm-2 heading">
+      <div class="col-sm-offset-1 col-sm-2 heading">
         <h2>About Me</h2>
       </div>
 
-      <div class="col-sm-10">
+      <div class="col-sm-8">
 
         <div class="row">
           <div class="col-sm-offset-1 col-sm-4">
             <img src="/img/IMG_3474.jpg" alt="..." class="img-responsive center-block img-circle glamour-shot">
           </div>
           <div class="col-sm-6">
-            <p class="lead text-center tagline"><em>I love to create, to build, and to share.</em></p>
+            <p class="lead text-center"><em>I love to create, to build, and to share.</em></p>
             <p class="lead text-center"><em>As an engineer and artist, I found the perfect mix of science and creativity in software development.</em></p>
             <p class="lead text-center"><em>I am excited to write code that influences others and improves lives.</em></p>
           </div>
@@ -95,7 +88,7 @@
               <h5>Languages</h5>
             </div>
             <div class="col-sm-9">
-              <p>JavaScript, Python, Ruby, Visual Basic for Applications </p>
+              <p>JavaScript, Python, Ruby, Visual Basic for Applications</p>
             </div>
           </div>
 
@@ -104,7 +97,7 @@
               <h5>Front End</h5>
             </div>
             <div class="col-sm-9">
-              <p>HTML, CSS, JavaScript, jQuery, JSON, AJAX </p>
+              <p>HTML, CSS, JavaScript, jQuery, JSON, AJAX</p>
             </div>
           </div>
 
@@ -113,7 +106,7 @@
               <h5>Frameworks & Environments</h5>
             </div>
             <div class="col-sm-9">
-              <p>Node.js, Express, AngularJS, Django, Flask, Rails </p>
+              <p>Node.js, Express, AngularJS, Django, Flask, Rails</p>
             </div>
           </div>
 
@@ -122,7 +115,7 @@
               <h5>Database</h5>
             </div>
             <div class="col-sm-9">
-              <p>SQL including MySQL and PostgreSQL (with ActiveRecord and Django ORM), MongoDB (with Mongoose) </p>
+              <p>SQL including MySQL and PostgreSQL (with ActiveRecord and Django ORM), MongoDB (with Mongoose)</p>
             </div>
           </div>
 
@@ -131,12 +124,12 @@
               <h5>Other</h5>
             </div>
             <div class="col-sm-9">
-              <p>Git, nginx, Amazon Web Services, Amazon EC2 </p>
+              <p>Git, nginx, Amazon Web Services, Amazon EC2 /p>
             </div>
           </div>
 
           <div class="col-sm-12">
-            <p>If you think I would be a good fit on your team or would like to collaborate on a project, feel free to <a href="#contact">get in touch</a>.</p>
+            <p>If you think I would be a good fit on your team or would like to collaborate on a project, feel free to <a href="#nav-contact">get in touch</a>.</p>
           </div>
 
         </div>
@@ -144,79 +137,151 @@
       </div>
 
     </div>
-
 
     <div id="nav-portfolio">
     </div>
 
-    <div class="row padded-row" id="portfolio">
+    <div class="row" id="portfolio">
 
-      <div class="col-sm-2 heading">
+      <div class="col-sm-offset-1 col-sm-2 heading">
         <h2>Portfolio</h2>
       </div>
 
-      <div class="col-sm-10">
+      <div class="col-sm-8">
 
         <div class="row">
-          <div class="col-sm-5">
-            <a href="http://ericax.com:1111"><img src="/img/algorithm_app.png" alt="algorithm app" class="img-responsive center-block img-rounded portfolio-thumbnail"></a>
+          <div class="row">
+            <div class="col-sm-offset-4 col-sm-4">
+              <a href="http://ericax.com:1111"><h3 class="text-center">Algorithm App</h3></a>
+            </div>
           </div>
-          <div class="col-sm-7">
-            <h4>Algorithm App</h4>
-            <h5>Searchable collection of algorithms allows the user to show and hide solutions</h5>
+          <div>
+            <p class="text-center">Built with Python, Django, SQLite, and Bootstrap</p>
+            <p class="text-center">See the code at <a href="https://github.com/erica7/python_algo_project" target="_blank"><img src="/img/GitHub-Mark-Light-120px-plus.png" alt="GitHub" class="img-responsive small-logo-body inline-block side-margin">github.com/erica7/python_algo_project</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <a href="http://ericax.com:1111"><img src="/img/python_algo_project.png" alt="Algorithm App" class="img-responsive center-block img-rounded portfolio-thumbnail"></a>
+          </div>
+          <div class="col-sm-6">
+            <h4 class="text-center">User Story</h4>
+            <p>Search collection of algorithms by tag, language, or title</p>
+            <p>Challenge yourself with a random algorithm</p>
+            <p>Show and hide the solution</p>
+            <h4 class="text-center">Technical Points of Interest</h4>
             <p>Model relationships defined such that algorithms can have many tags and many solutions in different languages</p>
-            <p>Built with Python, Django, MySQL, and Bootstrap</p>
-            <p>See the code at <a href="https://github.com/erica7/python_algo_project"><img src="/img/GitHub-Mark-Light-120px-plus.png" alt="GitHub" class="img-responsive small-logo inline-block side-margin">github.com/erica7/python_algo_project</a></p>
+            <p>The database has four tables: Algorithms, Solutions, Tags, and Languages</p>
+            <ul>
+              <li>Algorithms have a many-to-many relationship with tags</li>
+              <li>Algorithms have a one-to-many relationship with solutions</li>
+              <li>Languages have a one-to-many relationship with solutions</li>
+            </ul>
+            <p>CRUD operations are handled with Django admin, replacing the original manually coded CRUD operations (original design remains commented in codebase)</p>
           </div>
         </div>
 
-        <!-- <div class="row">
-          <div class="col-sm-5">
-            <a href="http://ericax.com:1111"><img src="/img/algorithm_app.png" alt="algorithm app" class="img-responsive center-block img-rounded portfolio-thumbnail"></a>
+        <div class="row portfolio-item">
+          <div class="row">
+            <div class="col-sm-offset-4 col-sm-4">
+              <a href="http://ericax.com:1112"><h3 class="text-center">Question And Answers</h3></a>
+            </div>
           </div>
-          <div class="col-sm-7">
-            <h4>Another App</h4>
-            <h5>Description </h5>
-            <p>Detail </p>
-            <p>Built with</p>
-            <p>Collaborated with</p>
-            <p>See the code at <a href="#">github.com/erica7</a></p>
+          <div>
+            <p class="text-center">Built with JavaScript, Node.js, Express, Mongo, Mongoose, AngularJS, and Bootstrap</p>
+            <p class="text-center">See the code at <a href="https://github.com/erica7/mean_QnA" target="_blank"><img src="/img/GitHub-Mark-Light-120px-plus.png" alt="GitHub" class="img-responsive small-logo inline-block side-margin">github.com/erica7/mean_QnA</a></p>
           </div>
-        </div> -->
+        </div>
+        <div class="col-sm-6 col-sm-push-6">
+          <a href="http://ericax.com:1112"><img src="/img/mean_QnA.png" alt="Questions And Answers App" class="img-responsive center-block img-rounded portfolio-thumbnail"></a>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-sm-pull-6">
+            <h4 class="text-center">User Story</h4>
+            <p>Register or login with feedback of validation issues</p>
+            <p>Post questions, answer other people's questions, and like answers</p>
+            <p>Search questions with a live filter</p>
+            <h4 class="text-center">Technical Points of Interest</h4>
+            <p>Angular Cookies tracks if a user is logged in, and which specific user it is</p>
+            <p>Validation errors from server-side database queries are displayed to the client on the front-end</p>
+            <p>Mongo database has separate collections for users, questions and answers that use associations (rather than embedded documents)</p>
+            <p>Mongoose queries use `.populate` to eliminate querying the database multiple times to get associated data</p>
+          </div>
+        </div>
 
-        <!-- <div class="row">
-          <div class="col-sm-5">
-            <a href="http://ericax.com:1111"><img src="/img/algorithm_app.png" alt="algorithm app" class="img-responsive center-block img-rounded portfolio-thumbnail"></a>
+        <div class="row portfolio-item">
+          <div class="row">
+            <div class="col-sm-offset-4 col-sm-4">
+              <a href="http://ericax.com:1113"><h3 class="text-center">Bright Ideas</h3></a>
+            </div>
           </div>
-          <div class="col-sm-7">
-            <h4>Another App</h4>
-            <h5>Description </h5>
-            <p>Detail </p>
-            <p>Built with</p>
-            <p>Collaborated with</p>
-            <p>See the code at <a href="#">github.com/erica7</a></p>
+          <div>
+            <p class="text-center">Built with Ruby, Rails, SQLite, ActiveRecord, and Bootstrap</p>
+            <p class="text-center">See the code at <a href="https://github.com/erica7/rails_bright_ideas" target="_blank"><img src="/img/GitHub-Mark-Light-120px-plus.png" alt="GitHub" class="img-responsive small-logo inline-block side-margin">github.com/erica7/rails_bright_ideas</a></p>
           </div>
-        </div> -->
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <a href="http://ericax.com:1113"><img src="/img/rails_bright_ideas.png" alt="Bright Ideas App" class="img-responsive center-block img-rounded portfolio-thumbnail"></a>
+          </div>
+          <div class="col-sm-6">
+            <h4 class="text-center">User Story</h4>
+            <p>Register or login with feedback of validation issues</p>
+            <p>Post bright ideas and like other people's ideas</p>
+            <p>See the most liked ideas and a complete list of ideas</p>
+            <p>Click on a user's alias to see their information and post & like stats</p>
+            <h4 class="text-center">Technical Points of Interest</h4>
+            <p>RESTFUL routing</p>
+          </div>
+        </div>
+
+        <div class="row portfolio-item">
+          <div class="row">
+            <div class="col-sm-offset-4 col-sm-4">
+              <a href="https://ericax.com"><h3 class="text-center">This Website</h3></a>
+            </div>
+          </div>
+          <div>
+            <p class="text-center">Built with nginx and tmux on a linux server</p>
+            <p class="text-center">See the code at <a href="https://github.com/erica7/site_x" target="_blank"><img src="/img/GitHub-Mark-Light-120px-plus.png" alt="GitHub" class="img-responsive small-logo inline-block side-margin">github.com/erica7/site_x</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-sm-push-6">
+            <a href="https://ericax.com"><img src="/img/site_x.png" alt="Personal Website" class="img-responsive center-block img-rounded portfolio-thumbnail"></a>
+          </div>
+          <div class="col-sm-6 col-sm-pull-6">
+            <h4 class="text-center">Technical Points of Interest</h4>
+            <p>Linux server with nginx</p>
+            <p><a href="https://github.com/tmux/tmux/wiki" target="_blank">tmux</a> sessions running for each application to handle separate languages and frameworks</p>
+            <ul>
+              <li>Django server running Algorithm app</li>
+              <li>Node server and MongoDB server running Question and Answers app</li>
+              <li>Rails server running Bright Ideas app</li>
+            </ul>
+            <p>Updates to static site deployed via a bash script</p>
+            <p>Recurring activities such as maintaining valid SSL certificates and publishing site statictics are managed in crontab</p>
+          </div>
+        </div>
 
       </div>
     </div>
-
 
     <div id="nav-contact">
     </div>
 
-    <div class="row padded-row" id="contact">
-      <div class="col-sm-2 heading">
+    <div class="row" id="contact">
+      <div class="col-sm-offset-1 col-sm-2 heading">
         <h2>Contact</h2>
       </div>
-      <div class="col-sm-10">
+      <div class="col-sm-8">
 
         <div class="row">
           <div class="col-sm-3 heading">
             <h5>Email</h5>
           </div>
           <div class="col-sm-9">
-            <p><a href="mailto:erica@ericax.com">erica@ericaX.com</a></p>
+            <p><a href="mailto:erica@ericax.com"></span>erica@ericaX.com</a></p>
           </div>
         </div>
 
@@ -234,16 +299,12 @@
             <h5>LinkedIn</h5>
           </div>
           <div class="col-sm-9">
-            <p><a href="http://www.linkedin.com/in/ericasnider" target="_blank"><img src="/img/In-White-128px-R.png" alt="LinkedIn" class="img-responsive small-logo inline-block side-margin">linkedin.com/in/ericasnider</a></p>
+            <p><a href="https://linkedin.com/in/ericasnider" target="_blank"><img src="/img/In-White-128px-R.png" alt="LinkedIn" class="img-responsive small-logo inline-block side-margin">linkedin.com/in/ericasnider</a></p>
           </div>
         </div>
 
       </div>
     </div>
-
-
-
-
 
     <footer class="row">
       <p class="footer-text text-right">Made with love, care, and craft beer by Erica</p>
