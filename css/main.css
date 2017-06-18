@@ -87,6 +87,12 @@ a:hover {
   max-height: 350px;
 }
 
+.text-color-highlight {
+  color: #eee;
+  font-weight: 400;
+  /*size: 1.3em;*/
+}
+
 footer {
   background-color: #111;
 }
