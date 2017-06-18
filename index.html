@@ -202,10 +202,10 @@
             <p>Post questions, answer other people's questions, and like answers</p>
             <p>Search questions with a live filter</p>
             <h4 class="text-center">Technical Points of Interest</h4>
-            <p>Angular Cookies tracks if a user is logged in, and which specific user it is</p>
-            <p>Validation errors from server-side database queries are displayed to the client on the front-end</p>
-            <p>Mongo database has separate collections for users, questions and answers that use associations (rather than embedded documents)</p>
-            <p>Mongoose queries use `.populate` to eliminate querying the database multiple times to get associated data</p>
+            <p>Angular Cookies tracks if someone is logged in, and which specific user it is</p>
+            <p>Validation errors from creating or updating entries in the database are displayed to the client on the front-end</p>
+            <p>Mongo database has separate collections for users, questions and answers that use associations rather than embedded documents</p>
+            <p>Mongoose queries use `.populate` to increase efficiency by eliminating the need to query the database multiple times to get associated data</p>
           </div>
         </div>
 
@@ -232,6 +232,8 @@
             <p>Click on a user's alias to see their information and post & like stats</p>
             <h4 class="text-center">Technical Points of Interest</h4>
             <p>RESTFUL routing</p>
+            <p>Models for users, ideas, and likes use one-to-many and many-to-many relationships</p>
+            <p>Model dependencies are established for destroy operations such that, for example, an idea's likes are deleted when the idea is deleted</p>
           </div>
         </div>
 
@@ -252,14 +254,14 @@
           </div>
           <div class="col-sm-6 col-sm-pull-6">
             <h4 class="text-center">Technical Points of Interest</h4>
-            <p>Linux server with nginx</p>
+            <p>Linux server using nginx</p>
+            <p>Updates to static site deployed via a bash script</p>
             <p><a href="https://github.com/tmux/tmux/wiki" target="_blank">tmux</a> sessions running for each application to handle separate languages and frameworks</p>
             <ul>
               <li>Django server running Algorithm app</li>
               <li>Node server and MongoDB server running Question and Answers app</li>
               <li>Rails server running Bright Ideas app</li>
             </ul>
-            <p>Updates to static site deployed via a bash script</p>
             <p>Recurring activities such as maintaining valid SSL certificates and publishing site statictics are managed in crontab</p>
           </div>
         </div>
