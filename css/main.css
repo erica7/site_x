@@ -44,7 +44,7 @@ body {
 
 h1, h2, h3, h4, h5 {
   margin-top: 0.3em;
-  /*color: #eee;*/
+  color: #eee;
 }
 
 h5 {
@@ -83,14 +83,12 @@ a:hover {
 }
 
 .glamour-shot {
-  /*margin: 0em 0em;*/
   max-height: 350px;
 }
 
 .text-color-highlight {
   color: #eee;
   font-weight: 400;
-  /*size: 1.3em;*/
 }
 
 footer {
