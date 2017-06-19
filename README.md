@@ -14,3 +14,5 @@ tmux sessions running for each application to handle separate languages and fram
 - Rails server running Bright Ideas app
 
 Recurring activities such as maintaining valid SSL certificates and publishing site statistics are managed in crontab
+
+Responsive web design (RWD) is achieved with Bootstrap
