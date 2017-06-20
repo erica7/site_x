@@ -8,7 +8,6 @@ if($(window).width() < 804){
   speed = 500;
 }
 
-
 $(document).ready(function(){
 
   setTimeout(function() {
@@ -83,6 +82,27 @@ $(document).ready(function(){
 
   $('.navbar-collapse a:not(.dropdown-toggle)').click(function(){
     $(this).parents('.navbar-collapse').collapse('hide');
+  });
+
+
+  $("a[href^='#']").on('click', function(e) {
+
+    // prevent default anchor click behavior
+    e.preventDefault();
+
+    // store hash
+    var hash = this.hash;
+
+    // animate
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 400, function(){
+
+    // when done, add hash to url
+    // (default click behaviour)
+    window.location.hash = hash;
+    });
+
   });
 
 })
