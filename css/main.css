@@ -1,14 +1,22 @@
+/*GREAT FOR DEBUGGING CSS*/
+/** {border: 1px solid red} */
+
 body {
   background-color: #333;
   color: #ccc;
   font-family: "Gill Sans";
   font-weight: 100;
   padding-top: 50px;
+  padding-bottom: 70px;
 }
 
 #about-me, #portfolio, #contact {
   padding-top: 3em;
   padding-bottom: 3em;
+}
+
+#about-me {
+  font-size: 16px;
 }
 
 #contact {
@@ -35,8 +43,9 @@ body {
 }
 
 .row {
-  padding-top: 0.4em;
+  /*padding-top: 0.4em;
   padding-bottom: 0.4em;
+  background-color: red !important;*/
 }
 
 .heading {
@@ -52,19 +61,23 @@ h5 {
   margin-top: 0.05em;
 }
 
+.red {
+  color: #D24F28;
+}
+
 a, a:link, a:visited, a:active {
   color: inherit;
   text-decoration: none;
 }
 
 a:hover {
-  color: #08c9ff ;
+  color: #08c9ff;
   text-decoration: none;
 }
 
-#nav-about-me, #nav-portfolio, #nav-contact {
-  margin-top: -45px;
-  padding-top: 45px;
+#nav-top, #nav-about-me, #nav-portfolio, #nav-contact {
+  margin-top: -50px;
+  padding-top: 50px;
 }
 
 .small-logo {
@@ -80,11 +93,13 @@ a:hover {
 }
 
 .side-margin {
-  margin: auto 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 .glamour-shot {
   max-height: 350px;
+  margin-bottom: 1em;
 }
 
 .text-color-highlight {
@@ -98,12 +113,12 @@ a:hover {
 }
 
 footer {
-  background-color: #111;
+  /*background-color: #111;*/
 }
 
 .footer-text {
-  margin: 0.5em 1.5em;
-  color: #888;
+  /*margin: 1.3em 1.5em;
+  color: #888;*/
 }
 
 .portfolio-thumbnail {
@@ -121,11 +136,15 @@ footer {
   border-top: 1px solid #bbb;
 }
 
+.internal-row {
+  margin-top: 1em;
+}
+
 #logo-container {
   position: absolute;
   height: 200px;
   width: 200px;
-  top: 230px;
+  top: 215px;
   left: 50%;
   transform: translate(-50%, 0%);
 }
@@ -197,6 +216,7 @@ footer {
   }
 
   .glamour-shot {
+    margin-top: 1em;
     margin-bottom: 2em;
   }
 

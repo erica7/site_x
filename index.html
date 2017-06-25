@@ -27,7 +27,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">ericaX</a>
+            <a class="navbar-brand" href="#nav-top">ericaX</a>
           </div>
           <div class="collapse navbar-collapse" id="navbar-to-collapse">
             <ul class="nav navbar-nav">
@@ -42,6 +42,9 @@
           </div>
         </div>
       </nav>
+
+      <div class="row" id="nav-top">
+      </div>
 
       <div id="parallax" class="row parallax-image">
       </div>
@@ -60,7 +63,7 @@
       <div class="row" id="nav-about-me">
       </div>
 
-      <div class="row" id="about-me">
+      <div class="row section-row" id="about-me">
 
         <div class="col-sm-offset-1 col-sm-2 heading">
           <h2>About Me</h2>
@@ -68,7 +71,7 @@
 
         <div class="col-sm-8">
 
-          <div class="row">
+          <div class="row about-me">
             <div class="col-sm-offset-1 col-sm-4">
               <img src="/img/IMG_3474.jpg" alt="..." class="img-responsive center-block img-circle glamour-shot">
             </div>
@@ -185,19 +188,19 @@
         </div>
 
         <div class="col-sm-8">
-          
+
           <div class="row">
-            <div class="row">
-              <div class="col-sm-offset-4 col-sm-4">
-                <h3 class="text-center"><a href="http://ericax.com:1111">Algorithm App</a></h3>
-              </div>
-            </div>
-            <div>
-              <p class="text-center">Built with <span class="text-color-highlight">Python, Django, SQLite, and Bootstrap</span></p>
-              <p class="text-center">See the code at <a href="https://github.com/erica7/python_algo_project" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i> github.com/erica7/python_algo_project</a></p>
+            <div class="col-sm-offset-4 col-sm-4">
+              <h3 class="text-center"><a href="http://ericax.com:1111">Algorithm App <span class="red">v1.1</span></a></h3>
+              <h4 class="text-center red"><em>Recently updated!</em></h4>
             </div>
           </div>
           <div class="row">
+            <p class="text-center">Built with <span class="text-color-highlight">Python, Django, SQLite, and Bootstrap</span> in collaboration with <span class="text-color-highlight"><a href="https://github.com/chrisulanowicz" target="_blank">Chris</a></span></p>
+            <p class="text-center">See the app code at <a href="https://github.com/erica7/python_algo_project" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i> github.com/erica7/python_algo_project</a></p>
+            <p class="text-center">See the algorithm code at <a href="https://github.com/chrisulanowicz/algorithms_in_JavaScript" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i> github.com/chrisulanowicz/algorithms_in_JavaScript</a></p>
+          </div>
+          <div class="row internal-row">
             <div class="col-sm-6">
               <a href="http://ericax.com:1111"><img src="/img/python_algo_project.png" alt="Algorithm App" class="img-responsive center-block img-rounded portfolio-thumbnail"></a>
             </div>
@@ -206,6 +209,9 @@
               <p>Search collection of algorithms by tag, language, or title</p>
               <p>Challenge yourself with a random algorithm</p>
               <p>Show and hide the solution</p>
+              <p><span class="red">[new to v1.1]</span> Enjoy aesthetically pleasing solutions, thanks to <a href="https://ace.c9.io/" target="_blank">Ace</a> in-browser editor</p>
+              <p><span class="red">[new to v1.1]</span> Toggle between Night and Day Mode on the algorithm page!</p>
+              <p><span class="red">[new to v1.1]</span> More algorithms!</p>
               <h4 class="text-center">Technical Points of Interest</h4>
               <p>Model relationships defined such that algorithms can have many tags and many solutions in different languages</p>
               <p>The database has four tables: Algorithms, Solutions, Tags, and Languages</p>
@@ -215,24 +221,25 @@
                 <li>Languages have a one-to-many relationship with solutions</li>
               </ul>
               <p>CRUD operations are handled with Django admin, replacing the original manually coded CRUD operations (original design remains commented in codebase)</p>
+              <p><span class="red">[new to v1.1]</span> Show / hide feature for solutions is handled using jQuery, minimizing requests to the server</p>
+              <p><span class="red">[new to v1.1]</span> <a href="https://ace.c9.io/" target="_blank">Ace</a> editors are created dynamically for each solution using jQuery in conjunction with Django-embedded HTML</p>
+              <p><span class="red">[new to v1.1]</span> Switching between Day and Night modes uses <a href="https://ace.c9.io/" target="_blank">Ace</a> built-in methods and jQuery to change the HTML and editor themes</p>
             </div>
           </div>
 
           <div class="row portfolio-item">
-            <div class="row">
-              <div class="col-sm-offset-4 col-sm-4">
-                <h3 class="text-center"><a href="http://ericax.com:1112">Question And Answers</a></h3>
-              </div>
+            <div class="col-sm-offset-4 col-sm-4">
+              <h3 class="text-center"><a href="http://ericax.com:1112">Question And Answers</a></h3>
             </div>
-            <div>
-              <p class="text-center">Built with <span class="text-color-highlight">JavaScript, Node.js, Express, Mongo, Mongoose, AngularJS, and Bootstrap</span></p>
-              <p class="text-center">See the code at <a href="https://github.com/erica7/mean_QnA" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i> github.com/erica7/mean_QnA</a></p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-sm-push-6">
-            <a href="http://ericax.com:1112"><img src="/img/mean_QnA.png" alt="Questions And Answers App" class="img-responsive center-block img-rounded portfolio-thumbnail"></a>
           </div>
           <div class="row">
+            <p class="text-center">Built with <span class="text-color-highlight">JavaScript, Node.js, Express, Mongo, Mongoose, AngularJS, and Bootstrap</span></p>
+            <p class="text-center">See the code at <a href="https://github.com/erica7/mean_QnA" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i> github.com/erica7/mean_QnA</a></p>
+            </div>
+          <div class="row internal-row">
+            <div class="col-sm-6 col-sm-push-6">
+              <a href="http://ericax.com:1112"><img src="/img/mean_QnA.png" alt="Questions And Answers App" class="img-responsive center-block img-rounded portfolio-thumbnail"></a>
+            </div>
             <div class="col-sm-6 col-sm-pull-6">
               <h4 class="text-center">User Story</h4>
               <p>Register or login with feedback of validation issues</p>
@@ -247,17 +254,15 @@
           </div>
 
           <div class="row portfolio-item">
-            <div class="row">
-              <div class="col-sm-offset-4 col-sm-4">
-                <h3 class="text-center"><a href="http://ericax.com:1113">Bright Ideas</a></h3>
-              </div>
-            </div>
-            <div>
-              <p class="text-center">Built with <span class="text-color-highlight">Ruby, Rails, SQLite, ActiveRecord, and Bootstrap</span></p>
-              <p class="text-center">See the code at <a href="https://github.com/erica7/rails_bright_ideas" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i> github.com/erica7/rails_bright_ideas</a></p>
+            <div class="col-sm-offset-4 col-sm-4">
+              <h3 class="text-center"><a href="http://ericax.com:1113">Bright Ideas</a></h3>
             </div>
           </div>
           <div class="row">
+            <p class="text-center">Built with <span class="text-color-highlight">Ruby, Rails, SQLite, ActiveRecord, and Bootstrap</span></p>
+            <p class="text-center">See the code at <a href="https://github.com/erica7/rails_bright_ideas" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i> github.com/erica7/rails_bright_ideas</a></p>
+          </div>
+          <div class="row internal-row">
             <div class="col-sm-6">
               <a href="http://ericax.com:1113"><img src="/img/rails_bright_ideas.png" alt="Bright Ideas App" class="img-responsive center-block img-rounded portfolio-thumbnail"></a>
             </div>
@@ -275,17 +280,15 @@
           </div>
 
           <div class="row portfolio-item">
-            <div class="row">
-              <div class="col-sm-offset-4 col-sm-4">
-                <h3 class="text-center"><a href="https://ericax.com">This Website</a></h3>
-              </div>
-            </div>
-            <div>
-              <p class="text-center">Running on <span class="text-color-highlight">nginx on a Linux server</span></p>
-              <p class="text-center">See the code at <a href="https://github.com/erica7/site_x" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i> github.com/erica7/site_x</a></p>
+            <div class="col-sm-offset-4 col-sm-4">
+              <h3 class="text-center"><a href="https://ericax.com">This Website</a></h3>
             </div>
           </div>
           <div class="row">
+            <p class="text-center">Running on <span class="text-color-highlight">nginx on a Linux server</span></p>
+            <p class="text-center">See the code at <a href="https://github.com/erica7/site_x" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i> github.com/erica7/site_x</a></p>
+          </div>
+          <div class="row internal-row">
             <div class="col-sm-6 col-sm-push-6">
               <a href="https://ericax.com"><img src="/img/site_x.png" alt="Personal Website" class="img-responsive center-block img-rounded portfolio-thumbnail"></a>
             </div>
@@ -316,7 +319,7 @@
         </div>
         <div class="col-sm-8">
 
-          <div class="row">
+          <div class="row internal-row">
             <div class="col-sm-3 heading">
               <h5>Email</h5>
             </div>
@@ -325,7 +328,7 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row internal-row">
             <div class="col-sm-3 heading">
               <h5>GitHub</h5>
             </div>
@@ -334,7 +337,7 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row internal-row">
             <div class="col-sm-3 heading">
               <h5>LinkedIn</h5>
             </div>
@@ -346,8 +349,10 @@
         </div>
       </div>
 
-      <footer class="row">
-        <p class="footer-text text-right">Made with love, care, and craft beer by Erica</p>
+      <footer class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container-fluid">
+          <p class="navbar-text navbar-right side-margin">Made with love, care, and craft beer by Erica</a></p>
+        </div>
       </footer>
 
     </div>
